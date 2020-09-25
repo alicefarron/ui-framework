@@ -1,0 +1,32 @@
+{
+  "name": "uiframework",
+  "version": "1.0.0",
+  "description": "Фреймворк для удобной разработки фронтенда на проекте",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "extract-text-webpack-plugin": "4.0.0-alpha.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12"
+  },
+  "scripts": {
+    "test": "npm run eslint",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicefarron/ui-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicefarron/ui-framework/issues"
+  },
+  "homepage": "https://github.com/alicefarron/ui-framework#readme"
+}
